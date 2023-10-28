@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        nav img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .navigation {
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin-right: 10px;
+        }
+
+        li a {
+            border-bottom: 2px solid transparent;
+        }
+
+        li a:hover {
+            border-bottom: 2px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.jpg" alt="logo">
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <h2>Enhance Your Future with TechEduca</h2>
+        <p>Empower Your Tomorrow with TechEduca: Bridging the Digital Divide through Innovative Education</p>
+        <p>TechEduca is your gateway to a brighter future, where the limitless potential of technology meets the
+            boundless possibilities of education. Our mission is to empower individuals with the knowledge and skills
+            they need to thrive in an increasingly digital world. We believe that access to quality education is a
+            fundamental right, and through our innovative approach, we are dedicated to bridging the digital divide. At
+            TechEduca, we offer a diverse range of courses, from coding and data science to cybersecurity and artificial
+            intelligence, designed to equip you with the tools you need to enhance your career prospects and stay ahead
+            in today's fast-paced tech-driven landscape. Join us on this transformative journey and unlock a world of
+            opportunities as you shape a brighter, tech-savvy future for yourself and the world around you.</p><br>
+            <div class="btn">
+                <a class="blue" href="post.html">Learn More</a>
+                <a class="yellow" href="course.html">Visit Courses</a>
+            </div>
+    </section>
+    <!-- features -->
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Discover an array of amazing features that redefine your experience.</p>
+     <div class="fea-base">
+        <h3 class="fea-box">Scholarship Facility</h3>
+        <p>Unlock your educational dreams with our Scholarship Facility, designed to support your journey towards excellence.</p>
+        <h3 class="fea-box">Sell Online Courses</h3>
+        <p>Monetize your knowledge and expertise by selling online courses to a global audience.</p>
+        <h3 class="fea-box">Global Certification</h3>
+        <p>Attain internationally recognized certifications and expand your career opportunities on a global scale.</p>
+    </div>
+    </section>
+    <!-- Courses -->
+    <section id="course">
+        <h3>Our Popular Courses</h3>
+        <p>Explore our diverse selection of popular courses to enhance your skills and knowledge.</p>
+        <div class="couse-box">
+            <div class="courses">
+                <img src="images/c1.jpg" alt="course1">
+                <div class="details">
+                    <span>Updated 21/8/21</span>
+                    <h6>JavaScript Beginners Courses</h6>
+                    <div class="star">
+
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">Rs.456</div>
+            </div>
+        </div>
+        <div class="couse-box">
+            <div class="courses">
+                <img src="images/c2.jpg" alt="course1">
+                <div class="details">
+                    <span>Updated 21/8/21</span>
+                    <h6>Python Beginners Courses</h6>
+                    <div class="star">
+
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">Rs.456</div>
+            </div>
+        </div>
+        <div class="couse-box">
+            <div class="courses">
+                <img src="images/c3.jpg" alt="course1">
+                <div class="details">
+                    <span>Updated 21/8/21</span>
+                    <h6>Flutter Beginners Courses</h6>
+                    <div class="star">
+
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">Rs.456</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your TechEduca</p>
+    </footer>
+</body>
+
+</html>

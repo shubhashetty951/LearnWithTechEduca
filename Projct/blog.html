@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+       
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            nav {
+                display: flex;
+                align-items: center;
+                background-color: #333;
+                color: #fff;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            }
+    
+            nav a {
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+            }
+    
+            nav a:hover {
+                background-color: #555;
+            }
+    
+            img {
+                width: 100px;
+                height: auto;
+            }
+    
+            nav img {
+                width: 150px;
+                cursor: pointer;
+            }
+    
+            .navigation {
+                margin-left: 20px;
+            }
+    
+            ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+            }
+    
+            li {
+                margin-right: 10px;
+            }
+    
+            li a {
+                border-bottom: 2px solid transparent;
+            }
+    
+            li a:hover {
+                border-bottom: 2px solid #fff;
+            }
+        </style>
+    </head>
+    
+<body>
+    <nav>
+        <img src="images/logo.jpg" alt="logo">
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="blog">
+        <h1>Blog</h1>
+
+        <!-- Individual blog posts -->
+        <div class="blog-post">
+            <h2>Blog Post Title 1</h2>
+            <p>Published on: <time datetime="2023-10-28">October 28, 2023</time></p>
+            <p>Author: John Doe</p>
+            <p>
+                This is the content of the blog post. You can add your text, images, and other elements here.
+                For example, you can include paragraphs, images, links, and more.
+            </p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p>Published on: <time datetime="2023-10-29">October 29, 2023</time></p>
+            <p>Author: Jane Smith</p>
+            <p>
+                This is another blog post. You can customize the content as needed. Feel free to make it as long as necessary.
+            </p>
+        </div>
+
+        <!-- Add more blog posts using the same structure -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Your TechEduca</p>
+    </footer>
+</body>
+</html>

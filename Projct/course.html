@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        nav img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .navigation {
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin-right: 10px;
+        }
+
+        li a {
+            border-bottom: 2px solid transparent;
+        }
+
+        li a:hover {
+            border-bottom: 2px solid #fff;
+        }
+    </style>
+</head>
+
+    <body>
+        <nav>
+            <img src="images/logo.jpg" alt="logo">
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="course">
+            <h3>Our Popular Courses</h3>
+            <p>Explore our diverse selection of popular courses to enhance your skills and knowledge.</p>
+            <div class="couse-box">
+                <div class="courses">
+                    <img src="images/c1.jpg" alt="course1">
+                    <div class="details">
+                        <span>Updated 21/8/21</span>
+                        <h6>JavaScript Beginners Courses</h6>
+                        <div class="star">
+    
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">Rs.456</div>
+                </div>
+            </div>
+            <div class="couse-box">
+                <div class="courses">
+                    <img src="images/c2.jpg" alt="course1">
+                    <div class="details">
+                        <span>Updated 21/8/21</span>
+                        <h6>Flutter Beginners Courses</h6>
+                        <div class="star">
+    
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">Rs.456</div>
+                </div>
+            </div>
+            <div class="couse-box">
+                <div class="courses">
+                    <img src="images/c3.jpg" alt="course1">
+                    <div class="details">
+                        <span>Updated 21/8/21</span>
+                        <h6>Python Beginners Courses</h6>
+                        <div class="star">
+    
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">Rs.456</div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2023 Your TechEduca</p>
+        </footer>
+
+    </body>
+
+</html>

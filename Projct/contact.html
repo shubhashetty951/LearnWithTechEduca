@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+       
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            nav {
+                display: flex;
+                align-items: center;
+                background-color: #333;
+                color: #fff;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            }
+    
+            nav a {
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+            }
+    
+            nav a:hover {
+                background-color: #555;
+            }
+    
+            img {
+                width: 100px;
+                height: auto;
+            }
+    
+            nav img {
+                width: 150px;
+                cursor: pointer;
+            }
+    
+            .navigation {
+                margin-left: 20px;
+            }
+    
+            ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+            }
+    
+            li {
+                margin-right: 10px;
+            }
+    
+            li a {
+                border-bottom: 2px solid transparent;
+            }
+    
+            li a:hover {
+                border-bottom: 2px solid #fff;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="blog.html">Blog</a>
+            <a href="course.html">Courses</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+   <!-- Contact Us Section -->
+<section id="contact">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Please fill out the form below to get in touch with us:</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Your TechEduca</p>
+</footer>
+
+<!-- JavaScript code for form submission -->
+<script>
+    // Function to handle form submission
+    function submitForm(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Get the form values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        // You can perform further actions here, such as sending the form data to a server via AJAX
+        // For this example, we'll simply show an alert
+        alert("Form submitted!\nName: " + name + "\nEmail: " + email + "\nMessage: " + message);
+
+        // Clear the form after submission
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+    }
+
+    // Attach the submitForm function to the form's submit event
+    document.querySelector("form").addEventListener("submit", submitForm);
+</script>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global Tags */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757373;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+/* Style for the "features" section */
+#features {
+  background: linear-gradient(to bottom, #f9f9f9, #e0e0e0); /* Gradient background for the features section */
+  padding: 40px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+/* Style for the "fea-box" class (feature boxes) */
+.fea-box {
+  font-size: 1.6rem; /* Slightly larger font size for feature headings */
+  color: #333; /* Text color for feature headings */
+  margin: 20px 0; /* Adjust margin as needed */
+  font-weight: 600; /* Slightly lighter font weight for feature headings */
+  background: #fff; /* White background for each feature box */
+  padding: 20px; /* Add padding to separate content from the box edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* A subtle box shadow for depth */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect transitions */
+}
+
+/* Hover effect for feature boxes */
+.fea-box:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Enhance box shadow on hover */
+}
+
+
+/* Navigation */
+
+/* Home */
+/* Style for the section tag */
+#home {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-image: url("images/back.jpg");
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center; /* Center the image */
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* Style for the blue button */
+a.blue {
+  background-color: #0074e4;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+a.blue:hover {
+  background-color: #005bbf;
+}
+
+/* Style for the yellow button */
+a.yellow {
+  background-color: #ffc107;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+a.yellow:hover {
+  background-color: #ffb400;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* course */
+/* Style for the "course" section */
+#course {
+  background: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Style for the "course-box" container */
+.couse-box {
+  margin: 20px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Style for the "courses" div within each course box */
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the course image */
+.courses img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the "details" div within each course box */
+.details {
+  text-align: center;
+}
+
+/* Style for the "star" div to display ratings */
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+/* Style for the cost */
+.cost {
+  font-weight: bold;
+  color: #0074e4;
+}
+
+/* Hover effect for course boxes */
+.couse-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Star ratings */
+/* Updated style for the "star" div to display a five-star rating */
+/* Updated style for the "star" div to display a five-star rating */
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+/* Updated style for the star ratings */
+.star::before {
+  content: '★★★★★'; /* Five star icons */
+  color: #f5b301; /* Brighter yellow color for stars */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  letter-spacing: 5px; /* Increase the spacing between stars */
+  text-shadow: 0 0 5px #f5b301; /* Add a subtle shadow for a 3D effect */
+  transition: color 0.3s, text-shadow 0.3s; /* Smooth transition effect on hover */
+}
+
+/* Hover effect for star ratings */
+.star:hover::before {
+  color: #ffce00; /* Slightly brighter yellow on hover */
+  text-shadow: 0 0 10px #ffce00; /* Enhance the shadow on hover */
+}
+
+
+
+/* registration */
+
+/* experts */
+
+/* footer */
+
+/* About */
+ /* About Us Section */
+ #about-us {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#about-us h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#about-us p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Our Mission and Values */
+#about-us h2 {
+  font-size: 1.5rem;
+  color: #0074e4;
+  margin-top: 20px;
+}
+
+#about-us ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Our Team Section */
+#our-team {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+#our-team h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contact Information Section */
+#contact {
+  background-color: #0074e4;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+}
+
+address p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Style for the navigation links */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px; /* Increase the margin to add more space between li elements */
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* You can adjust these styles to match your design preferences. */
+
+/* Blog */
+/* Style for the blog section */
+#blog {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#blog h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Style for individual blog posts */
+.blog-post {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-post p {
+  margin-bottom: 10px;
+}
+
+.blog-post time {
+  font-style: italic;
+  color: #777;
+}
+
+/* Style for links in blog posts */
+.blog-post a {
+  color: #0074e4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.blog-post a:hover {
+  color: #0052a2;
+}
+
+/* Style for author information */
+.blog-post .author-info {
+  font-weight: bold;
+}
+
+/* Additional styling for improved aesthetics */
+.blog-post {
+  transition: transform 0.3s;
+}
+
+.blog-post:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/* Course_inner */
+
+/* contact */
+/* Style for the Contact Us section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #0074e4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0052b3;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.about-us {
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+
+.about-us h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-us h1, .about-us p {
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-us ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.about-us li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-us h1, .about-us h2 {
+  font-weight: bold;
+}
+
+.about-us p, .about-us li {
+  text-align: left;
+}
+
+.about-us p, .about-us li {
+  margin-bottom: 20px;
+}
+
+/* responsive */
+
+@media (max-width: 769px) {
+}
+
+@media (max-width: 475px) {
+}
